@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css"/>
+    <title>Early Detection of Chronic Kidney Disease</title>
+
+</head>
+<body>
+    <div id="header" >
+        <h1><b>Early Detection of Chronic Kidney Disease</b></h1>
+    </div>
+    <div id="container">
+        <form action="Result.html" method="post">
+            <div class="form-grpup">
+                <label for="pus_cell"><b>Pus_cell</b></label>
+                <select name="pus_cell" id="pus_cell" class="formcontrol" required type="dropdown">
+                    <option value="1"selected>Normal</option>
+                    <option value="0"selected>Abnormal</option>
+                    <option value=""selected>None</option>
+
+                </select>
+            </div>
+            <div class="form-grpup">
+                <label for="blood glouse random"><b>Blood glouse random</b></label>
+                <input type="text" name="blood glouse random" id="blood glouse random" size="25" placeholder="Enter your blood glouse random" class="formcontrol">
+            </div>
+            <div class="form-grpup">
+                <label for="blood urea"><b>Blood urea</b></label>
+                <input type="text" name="blood urea" id="blood urea" size="25" class="formcontrol" placeholder="Enter your blood urea" required>
+            </div>
+            <div class="form-grpup">
+                <label for="red_blood_cell"><b>Red_blood_cell </b></label>
+                <select name="red_blood_cell" id="red_blood_cell" class="formcontrol" required type="dropdown">
+                    <option value="1"selected>Normal</option>
+                    <option value="0"selected>Abnormal</option>
+                    <option value=""selected>None</option>
+
+                </select>
+            </div>
+            <div class="form-grpup">
+                <label for="diabetesmellitus"><b>Diabetesmellitus</b></label>
+                <select name="diabetesmellitus" id="diabetesmellitus" class="formcontrol" required type="dropdown">
+                    <option value="0"selected>Yes</option>
+                    <option value="1"selected>No</option>
+                    <option value=""selected>None</option>
+                </select>
+            </div>
+            <div class="form-grpup">
+            <label for="coronary_artery_disease"><b>Coronary_artery_disease</b></label>
+            <select name="coronary_artery_disease" id="coronary_artery_disease" class="formcontrol" required type="dropdown">
+                <option value="0"selected>Yes</option>
+                <option value="1"selected>No</option>
+                <option value=""selected>None</option>
+            </select>
+        </div>
+        <div class="form-grpup">
+            <label for="pedal_edema"><b>Pedal_edema</b></label>
+            <select name="pedal_edema" id="pedal_edema" class="formcontrol" required type="dropdown">
+                <option value="0"selected>Yes</option>
+                <option value="1"selected>No</option>
+                <option value=""selected>None</option>
+            </select>
+        </div>
+        <div class="form-grpup">
+            <label for="anemia"><b>Anemia</b></label>
+            <select name= "anemia" id="anemia" class="formcontrol" required type="dropdown">
+                <option value="0"selected>Yes</option>
+                <option value="1"selected>No</option>
+                <option value=""selected>None</option>
+            </select>
+        </div>
+        </form>
+        <ul>
+        <li><button ><a href="app.py">Predict</button></li>
+        <li><button><a href="Home.html">Home</button></li>
+        </ul>
+    </div>
+</body>
+</html>
