@@ -1,0 +1,30 @@
+body{
+    background-color:rgb(231, 238, 130);
+}
+#b{
+    background-color: rgb(245, 251, 253);
+    height: 45px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#b h1{
+    font-style: oblique;
+    font-size:200%;
+ color: rgb(14, 14, 19);
+ margin-left: 20%;
+ margin-right: 0%;
+}
+ body h4{
+    text-decoration-color: black;
+    font-size:30px;
+    font-style: oblique;
+
+}
+#p1{
+    text-align:center;
+    font-size:25px;
+    color:green;
+} 
