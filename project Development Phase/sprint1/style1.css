@@ -1,0 +1,65 @@
+body {
+    background-color:rgb(231, 238, 130);
+    border:16px;
+}
+#header h1{
+    font-style: oblique;
+    font-size:200%;
+ color: rgb(14, 14, 19);
+ margin-left: 20%;
+ margin-right: 0%;
+ 
+ }
+#header{
+    background-color: rgb(245, 251, 253);
+    height: 45px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#container{
+    background-color: rgb(245, 251, 253);
+    height: 500px;
+    width:60%;
+    margin-left: 20%;
+    margin-right: 0px;
+    margin-top: 40px;
+}
+label{
+    font-style: oblique;
+    margin-left: 25%;
+    font-size: 150%;
+}
+#container input {
+    margin-top:20px;
+    height: 30px;
+    font-size: 20px;
+    padding: 4px;
+}
+#container select{
+    margin-top: 20px;
+    size: 50px;
+    font-size: 20px;
+    width: 20%;
+    height: 30px;
+    
+}
+#container ul li button{
+    background-color:rgb(235, 241, 155);
+    font-style: oblique;
+    border-color: rgb(95, 94, 94);
+}
+#container ul{
+    float: right;
+    margin-right:45%;
+    margin-top: 30px;
+}
+#container ul li{
+    display: inline;
+    margin-right: 20px;
+}
+body button a{
+    text-decoration: none;
+}
