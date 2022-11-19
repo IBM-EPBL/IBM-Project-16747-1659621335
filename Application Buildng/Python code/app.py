@@ -4,7 +4,7 @@ from flask import Flask, request, render_template
 import pickle
  
 app = Flask(__name__)  # initializing the app
-model = pickle.load(open('CKD.pkl','rb')) #loading the model
+model = pickle.load(open('CKD.pkl','wb')) #loading the model
 
 @app.route('/') # route to display the home page
 def home():
